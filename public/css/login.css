@@ -57,17 +57,17 @@ input {
 }
 
 /* 저장된 계정 드롭다운 */
-.button-save-mail {
+.button-remember-mail {
     width: 40px;
     height: 40px;
     padding: 0 var(--gap-10);
 }
 
-.button-save-mail img {
+.button-remember-mail img {
     width: 100%;
 }
 
-.save-mail {
+.remember-mail {
     width: 100%;
     position: absolute;
     top: 160px;
@@ -75,13 +75,13 @@ input {
     border-top: 1px solid var(--primary-color);
 }
 
-.save-mail li {
+.remember-mail li {
     padding: var(--gap-5) var(--gap-10);
     cursor: pointer;
     background-color: var(--white-color);
 }
 
-.save-mail li:hover {
+.remember-mail li:hover {
     background-color: var(--secondary-color);
 }
 
